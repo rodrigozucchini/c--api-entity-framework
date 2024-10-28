@@ -6,5 +6,7 @@ namespace TodoApi.Model
     {
         public DbContextApi(DbContextOptions<DbContextApi> options) : base(options) {}
         public DbSet<Cliente> Clientes { get; set; }
+
+        public DbSet<Producto> Productos { get; set; }
     }
 }

@@ -24,7 +24,7 @@ namespace TodoApi.Repositories
             var entity = await _dbSet.FindAsync(id);
             if (entity == null)
             {
-                throw new KeyNotFoundException($"Entidad with ID {id} not found.");
+                throw new KeyNotFoundException($"Entidad con ID {id} no encontrado.");
             }
             return entity;
         }
@@ -36,10 +36,11 @@ namespace TodoApi.Repositories
             return entity;
         }
 
-        public async Task UpdateAsync(int id, T entity)
+        public async Task<T> UpdateAsync(int id, T entity)
         {
             _context.Entry(entity).State = EntityState.Modified;
             await _context.SaveChangesAsync();
+            return entity;
         }
 
         public async Task DeleteAsync(int id)

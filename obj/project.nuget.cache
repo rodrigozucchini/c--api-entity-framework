@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1/E4iUrij3ugyPw+zHSbStJ8AUUQmrWCELybeKpGrCcXLiSp9G4vHo+jHnBOwgenIDjdiOYlKXfMyIUl2gSrGQ==",
+  "dgSpecHash": "VfxJnKssy+sIz9CXMcCng9JB91j+Gy1enoFpMP6FTlmfD3QsRMy+Ft9JHIXigSbJnxFqzsuL7dwqGJu4vgRLig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TesysNet\\Documents\\poo-2024-11-1\\TodoApi\\TodoApi.csproj",
+  "projectFilePath": "C:\\Users\\TesysNet\\documents\\poo-2024-11-1\\todoApi\\TodoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TesysNet\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\TesysNet\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

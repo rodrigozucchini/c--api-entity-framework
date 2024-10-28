@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TesysNet\\Documents\\poo-2024-11-1\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\TesysNet\\documents\\poo-2024-11-1\\todoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TesysNet\\Documents\\poo-2024-11-1\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\TesysNet\\documents\\poo-2024-11-1\\todoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TesysNet\\Documents\\poo-2024-11-1\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\TesysNet\\documents\\poo-2024-11-1\\todoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\TesysNet\\Documents\\poo-2024-11-1\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\TesysNet\\documents\\poo-2024-11-1\\todoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\TesysNet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TesysNet\\Documents\\poo-2024-11-1\\TodoApi\\obj\\",
+        "outputPath": "C:\\Users\\TesysNet\\documents\\poo-2024-11-1\\todoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TesysNet\\AppData\\Roaming\\NuGet\\NuGet.Config",

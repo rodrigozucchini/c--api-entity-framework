@@ -25,9 +25,15 @@ namespace TodoApi.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Cliente>> GetCliente(int id)
         {
-            var cliente = await _repository.GetByIdAsync(id);
-            if (cliente == null) return NotFound();
-            return Ok(cliente);
+            try
+            {
+                var cliente = await _repository.GetByIdAsync(id);
+                return Ok(cliente);
+            }
+            catch (KeyNotFoundException)
+            {
+                return NotFound($"Cliente con ID {id} no encontrado.");
+            }
         }
 
         [HttpPost]
